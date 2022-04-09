@@ -2,6 +2,4 @@ var gulp = require('gulp');
 
 var tasks = require('./gulp/index');
 
-gulp.task(
-    'default', gulp.series(tasks)
-);
+gulp.task('default', tasks);

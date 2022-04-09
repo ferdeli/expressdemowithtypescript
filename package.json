@@ -1,0 +1,33 @@
+{
+  "name": "later",
+  "version": "1.0.0",
+  "description": "later typescript edition",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "ts-node ./src/bin/www.ts",
+    "js": "npm run build & node ./dist/bin/www.js",
+    "build": "gulp"
+  },
+  "author": "Kun Li",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/debug": "^4.1.7",
+    "@types/del": "^4.0.0",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.2",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.23",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  }
+}
